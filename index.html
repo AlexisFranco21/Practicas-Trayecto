@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="css/main.css">
     <!--UTF-8 se refiere al tipo de caracteres especiales dentro de la pagina-->
     <meta charset="UTF-8">
     <!--compatible con el explorador edge-->
@@ -31,13 +32,24 @@
     <section>
         <H2>Formulario</H2>
         <form action="">
-            <input type="=text" id="Nombre" placeholder="Nombre">
-            <input type="text" id="Apellidos" placeholder="Apellidos">
-            <input type="date" id="Fecha">
-            <input type="tel" id="Telefono" placeholder="55-55-55-55-55">
-            <input type="email" id="email" placeholder="ejemplo@dominio.com">
+            <input type="=text" id="Nombre" placeholder="Nombre" required >
+            <input type="text" id="Apellidos" placeholder="Apellidos" required>
+            <input type="date" id="Fecha" required>
+            <input type="tel" id="Telefono" placeholder="55-55-55-55-55" required>
+            <input type="email" id="email" placeholder="ejemplo@dominio.com" required>
+            <input type="password" id="Password" placeholder="Password" required>
+            <input type="file" id="Archivo" required>
             <input type="submit" value="Registrar">
         </form>
+    </section>
+    <section>
+        <div id="imagenes">
+            <img src="img/img.1.jfif" alt="paij" class="efecto">
+            <img src="IMG/img.2.jfif" alt="paij2">
+            <img src="IMG/img.3.jfif" alt="amlo">
+            <img src="IMG/img.4.jfif" alt="buchiamlo">
+            <img src="IMG/img.5.jfif" alt="murillo">
+        </div>
     </section>
 </body>
 </html>
